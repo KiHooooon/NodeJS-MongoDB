@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import axios from 'axios';
+import NavBar from '../NavBar/NavBar';
 
 function LandingPage() {
     useEffect(() => {
@@ -8,6 +9,7 @@ function LandingPage() {
     }, [])
     return (
         <div>
+            <NavBar />
             LandingPage
         </div>
     )
